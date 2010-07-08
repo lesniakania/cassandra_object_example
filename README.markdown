@@ -11,7 +11,7 @@ example app using Apache Cassandra with Cassandra Object
 # Dependencies
 
 * bundler
-* [http://cassandra.apache.org/ | Apache Cassandra]
+* [Apache Cassandra]: http://cassandra.apache.org/ "Apache Cassandra"
 
 # Configuration
 
