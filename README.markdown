@@ -22,3 +22,8 @@ example app using Apache Cassandra with Cassandra Object
 
 * run Cassandra by `apache-cassandra-dir/bin/cassandra -f`
 * `bundle exec rails server`
+
+# Examples
+
+* blog is simple and finds only by id but there are specified indexes for post's title and username
+* if you want to search by title type: `Post.find_all_by_title('some_post_title').first`
