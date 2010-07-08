@@ -1,0 +1,194 @@
+body {
+  font-size: 13px;
+  font-family: verdana;
+  color: #48522C;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: #739E00;
+  font-weight: bold;
+  padding: 2px;
+}
+
+a:hover {
+  color: #48522C;
+  background: #8FC400;
+  -moz-border-radius: 10px;
+}
+
+h1 {
+  font-size: 20px;
+  color: #5B7A00;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+#wrapper {
+  width: 600px;
+  margin: 15px auto;
+}
+
+#logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #5B7A00;
+  font-variant: small-caps;
+}
+
+#content {
+  background: #BCE396;
+  padding: 20px;
+  border: 4px solid #5B7A00;
+  -moz-border-radius: 5px;
+}
+
+#footer {
+  font-size: 10px;
+  text-align: center;
+  padding: 5px 0;
+}
+
+/* forms */
+form {
+  width: 380px;
+  margin: 10px auto;
+  margin-bottom: 30px;
+}
+
+fieldset {
+  border: none;
+}
+
+form .formError{
+  position: absolute;
+  top: 25px;
+  left: 220px;
+  color: #990000;
+}
+
+form input {
+  color: #3C4228;
+}
+
+input[type="text"], input[type="password"] {
+  width: 200px;
+  height: 30px;
+  padding: 3px;
+  font-size: 16px;
+  border: 1px solid #5B7A00;
+  -moz-border-radius: 5px;
+}
+
+select {
+  width: 208px;
+  height: 30px;
+  padding: 3px;
+  font-size: 16px;
+  border: 1px solid #5B7A00;
+  -moz-border-radius: 5px;
+}
+
+textarea {
+  width: 200px;
+  height: 100px;
+  padding: 3px;
+  font-size: 16px;
+  border: 1px solid #5B7A00;
+  -moz-border-radius: 5px;
+}
+
+label {
+  color: #5B7A00;
+  font-weight: bold;
+  width: 120px;
+  float: left;
+  line-height: 20px;
+}
+
+.buttons {
+  height: 30px;
+}
+
+.buttons > input {
+  width: 200px;
+  height: 30px;
+  padding: 3px;
+  font-size: 14px;
+  border: 1px solid #5B7A00;
+  -moz-border-radius: 5px;
+  background: #8FC400;
+  cursor: pointer;
+  margin: 0;
+}
+
+.ctrl {
+  margin: 7px 0px;
+  height: 30px;
+  position: relative;
+  width: 400px;
+  height: 48px;
+}
+
+.big {
+  height: 110px;
+}
+
+.ctrl label {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.ctrl input, select, textarea {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+}
+
+/* end forms */
+
+ul#posts-list {
+  padding: 0;
+  margin: 10px 0;
+  list-style-type: none;
+}
+
+div.post {
+  margin: 0 0 20px 0;
+}
+
+div.post .title {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+div.post .content {
+  margin: 7px 0;
+}
+
+div.post .username {
+  font-size: 11px;
+}
+
+a.title {
+  display: block;
+  float: left;
+  width: 150px;
+  height: 17px;
+}
+
+li.post {
+  clear: both;
+}
+
+li.post a.title {
+  color: #48522C;
+}
+
+li.post a.title:hover {
+  background: transparent;
+}

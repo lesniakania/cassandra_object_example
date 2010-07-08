@@ -1,0 +1,14 @@
+<div class="post">
+  <div class="title">
+    <%=h @post.title %>
+  </div>
+  <div class="content">
+    <%=h @post.content %>
+  </div>
+  <div class="username">
+    posted by <%=h @post.username %>
+    <%=h distance_of_time_in_words_to_now(Time.at(@post.key.seconds)) %> ago
+  </div>
+</div>
+<%= link_to 'Back to index', posts_path %>
+<%= link_to 'Edit', edit_post_path(@post) %>

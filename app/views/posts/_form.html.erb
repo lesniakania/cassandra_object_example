@@ -1,0 +1,18 @@
+<% form_for @post do |f| %>
+  <div class="ctrl">
+    <%= f.label :username %>
+    <%= f.text_field :username %>
+  </div>
+  <div class="ctrl">
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </div>
+  <div class="ctrl big">
+    <%= f.label :content %>
+    <%= f.text_area :content %>
+  </div>
+  <div class="ctrl buttons">
+    <%= f.submit%>
+  </div>
+<% end %>
+<%= link_to 'Back to index', posts_path %>
